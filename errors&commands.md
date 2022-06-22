@@ -12,4 +12,9 @@
   `kubectl portforward service/nginx-service 8080:80`  
   where service = nginx-service running on port 80 can now be run with http://localhost:8080
 
+## To uninstall golang
+  `rm -rf /usr/local/go`
+ 
+## To change go env variable
+  `go env -w GOFLAGS=""`
 
