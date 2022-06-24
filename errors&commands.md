@@ -9,7 +9,7 @@
   then `sudo ca-update-certificates`  
  
 ## To expose a service and run it through localhost:
-  `kubectl portforward service/nginx-service 8080:80`  
+  `kubectl port-forward service/nginx-service 8080:80`  
   where service = nginx-service running on port 80 can now be run with http://localhost:8080
 
 ## To uninstall golang
