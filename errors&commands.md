@@ -32,3 +32,10 @@ It says that kubectl latest version is `v1.24.2` but this version is faulty so d
 
 ## Installing Kubebuilder
 ['https://book.kubebuilder.io/quick-start.html']  
+
+## Install WSL REMOTE on VS CODE  
+Downloading Remote WSL is easy on VS Code. There is an extension, we just have to install it.  
+
+##  Downloading gcc executable file on WSL  
+`apt-get install build-essential`  
+
