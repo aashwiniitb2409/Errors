@@ -25,4 +25,7 @@
 ['https://ao.ms/how-to-install-golang-on-wsl-wsl2/']  
 after adding environment variables in `.bashrc can be opened by vim .bashrc`. Run `source .bashrc`. And we are good to go (PUN NOT INTENDED) 
 
-
+## Install kubectl on WSL2  
+['https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/']  
+**Problems with this documentation**
+It says that kubectl latest version is `v1.24.2` but this version is faulty so download `v1.24.0`  
