@@ -39,3 +39,6 @@ Downloading Remote WSL is easy on VS Code. There is an extension, we just have t
 ##  Downloading gcc executable file on WSL  
 `apt-get install build-essential`  
 
+## To know linux version and specifications  
+`lsb_release -a`  
+
