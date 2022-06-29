@@ -19,7 +19,10 @@
   `go env -w GOFLAGS=""`
   
 ## Install WSL2  
-['https://docs.microsoft.com/en-us/windows/wsl/install']
+['https://docs.microsoft.com/en-us/windows/wsl/install']  
 
+## Install go on WSL2  
+['https://ao.ms/how-to-install-golang-on-wsl-wsl2/']  
+after adding environment variables in `.bashrc can be opened by vim .bashrc`. Run `source .bashrc`. And we are good to go (PUN NOT INTENDED) 
 
 
