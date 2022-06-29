@@ -17,4 +17,9 @@
  
 ## To change go env variable
   `go env -w GOFLAGS=""`
+  
+## Install WSL2  
+['https://docs.microsoft.com/en-us/windows/wsl/install']
+
+
 
