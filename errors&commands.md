@@ -42,3 +42,15 @@ Downloading Remote WSL is easy on VS Code. There is an extension, we just have t
 ## To know linux version and specifications  
 `lsb_release -a`  
 
+## To download postgresql on WSL  
+`wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -`  
+`sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'`  
+`sudo apt update`  
+`sudo apt install postgresql postgresql-contrib`  
+
+`service postgresql status`  
+**Running Postgres:** `sudo su postgres`  
+`psql`  
+**Check Version:** `SELECT version();`  
+
+
