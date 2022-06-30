@@ -18,6 +18,9 @@
 ## To change go env variable
   `go env -w GOFLAGS=""`
   
+## To uninstall WSL  
+Just remove linux subsystem from the control panel  
+
 ## Install WSL2  
 ['https://docs.microsoft.com/en-us/windows/wsl/install']  
 
