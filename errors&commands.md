@@ -56,4 +56,11 @@ Downloading Remote WSL is easy on VS Code. There is an extension, we just have t
 `psql`  
 **Check Version:** `SELECT version();`  
 
+## Error when starting postgres:  
+**Error:** psql: could not connect to server: No such file or directory  
+    Is the server running locally and accepting connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?  
+**Solution:** Restart Postgres: `sudo /etc/init.d/postgresql restart`  
+
+
+
 
